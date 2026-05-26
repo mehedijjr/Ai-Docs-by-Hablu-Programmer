@@ -6,15 +6,17 @@
 
 
 @theme {
+  /* color */
   --color-primary: #00D2FF;
   --color-secondary: #059DBE;
   --color-dark: #2D2D2D;
   --color-muted: #666666;
   --color-white: #FFFFFF;
   --color-accent: #9AEDFF;
-}
+  --color-full-black: #000000;
 
-@theme {
+
+  /* font */
   --font-primary: "Space Grotesk", sans-serif;
   --font-secondary: "Nunito Sans", sans-serif;
 }

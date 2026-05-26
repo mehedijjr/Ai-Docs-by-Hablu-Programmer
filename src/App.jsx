@@ -1,15 +1,14 @@
-import { Button } from "./components/Button";
-import { Container } from "./components/Container";
-import { SectionTitle } from "./components/SectionTitle";
+
+import { Footer } from "./shared/Footer";
+import { Navbar } from "./shared/Navbar";
 
 const App = () => {
   return (
     <>
-      <Button>Primary Button</Button>
-      <Button className="text-black">Secondary Button</Button>
-
-      <Container></Container>
-      <SectionTitle gradient="Solution">Problem &</SectionTitle>
+      <main className="bg-sky-300/50">
+        <Navbar />
+        <Footer />
+      </main>
     </>
   );
 };
