@@ -1,16 +1,14 @@
-
-
 import { Footer } from "../public/Footer";
+import { Hero } from "./components/landing/Hero";
 import { Navbar } from "./shared/Navbar";
+
 
 const App = () => {
   return (
     <>
-      <main className="bg-sky-300/50">
+      <main className="font-secondary bg-[url(/vector.png)] min-h-svh bg-no-repeat bg-top">
         <Navbar />
-        <div className="min-h-[50svh]">
-
-        </div>
+        <Hero />
         <Footer />
       </main>
     </>
