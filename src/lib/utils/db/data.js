@@ -114,3 +114,36 @@ export const reviews = [
   }
 
 ]
+
+export const partners = [
+  {
+    src: "/partner1.png",
+    alt: "Partner 1",
+    id: 1
+  },
+  {
+    src: "/partner2.png",
+    alt: "Partner 2",
+    id: 2
+  },
+  {
+    src: "/partner3.png",
+    alt: "Partner 3",
+    id: 3
+  },
+  {
+    src: "/partner4.png",
+    alt: "Partner 4",
+    id: 4
+  },
+  {
+    src: "/partner5.png",
+    alt: "Partner 5",
+    id: 5
+  },
+  {
+    src: "/partner6.png",
+    alt: "Partner 6",
+    id: 6
+  }
+];
