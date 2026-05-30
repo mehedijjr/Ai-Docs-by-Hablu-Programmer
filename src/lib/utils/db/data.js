@@ -147,3 +147,21 @@ export const partners = [
     id: 6
   }
 ];
+
+export const faqs = [
+  {
+    q: "Is my data secure?",
+    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
+    id: 1
+  },
+  {
+    q: "What types of documents can Ai GoverningDocs generate?",
+    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
+    id: 2
+  },
+  {
+    q: "Can I customize the documents?",
+    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
+    id: 3
+  }
+];

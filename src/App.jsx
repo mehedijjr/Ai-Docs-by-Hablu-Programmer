@@ -1,5 +1,7 @@
 import { Footer } from "../public/Footer";
+import { Faq } from "./components/landing/Faq";
 import { Hero } from "./components/landing/Hero";
+import { Note } from "./components/landing/Note";
 import { Partner } from "./components/landing/Partner";
 import { ProblemSolution } from "./components/landing/ProblemSolution";
 import { Reviews } from "./components/landing/Reviews";
@@ -15,6 +17,8 @@ const App = () => {
         <ProblemSolution />
         <Reviews />
         <Partner />
+        <Faq />
+        <Note />
         <Footer />
       </main>
     </>
